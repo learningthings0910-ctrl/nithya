@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Little Universe 🌙</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page page-7">
+  <main class="memories-wrap">
+    <p class="eyebrow">A LITTLE TRIP THROUGH OUR STORY</p>
+    <h1>Pick a chapter 💕</h1>
+    <p class="subtitle">Each one hides a tiny piece of our memories.</p>
+
+    <div class="memory-grid">
+      <button class="memory-tile" onclick="go('memory1.html')">
+        <img src="assets/images/page7-section1.jpg" alt="Memory 1" onerror="this.src='https://picsum.photos/seed/memory-one/700/500'">
+        <span>Chapter 01<br><strong>The Beginning 🌱</strong></span>
+      </button>
+      <button class="memory-tile" onclick="go('memory2.html')">
+        <img src="assets/images/page7-section2.jpg" alt="Memory 2" onerror="this.src='https://picsum.photos/seed/memory-two/700/500'">
+        <span>Chapter 02<br><strong>The Moments ✨</strong></span>
+      </button>
+      <button class="memory-tile" onclick="go('memory3.html')">
+        <img src="assets/images/page7-section3.jpg" alt="Memory 3" onerror="this.src='https://picsum.photos/seed/memory-three/700/500'">
+        <span>Chapter 03<br><strong>The Little Things 💗</strong></span>
+      </button>
+    </div>
+
+    <button class="btn primary" onclick="go('final.html')">One Last Surprise 💌</button>
+    <button class="back-btn dark" onclick="goBack()">← Go Back</button>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>

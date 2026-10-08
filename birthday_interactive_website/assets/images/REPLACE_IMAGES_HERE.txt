@@ -1,0 +1,1 @@
+Replace the named image files listed in README.txt.
